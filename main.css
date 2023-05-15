@@ -68,6 +68,10 @@ h4 {
     color: #f08080;
 }
 
+li {
+    list-style-type: none;
+}
+
 /*   Slideshow Information   */
 
 * {box-sizing:border-box}
@@ -160,7 +164,7 @@ h4 {
   to {opacity: 1}
 }
 
-
+.modal-fullscreen
 
 /*   Style the form   */
 
@@ -212,6 +216,23 @@ input.invalid {
   background-color: #04AA6D;
 }
 
+/* Modal Styles */
+
+div.modal-body {
+    background-color: #d7eeee;
+    color: #f08080;
+}
+
+.btn-primary {
+    background-color: #f08080;
+    color: #d7eeee;
+    outline-color: #d7eeee; 
+}
+
+.btn-primary:hover {
+    background-color: #d7eeee;
+    color: #f08080;
+}
 
 /* Footer Styles */
 

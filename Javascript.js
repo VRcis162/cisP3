@@ -26,3 +26,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
